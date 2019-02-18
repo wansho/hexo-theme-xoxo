@@ -7,13 +7,21 @@ menu:
   home: /
   archives: /archives
   tags: /tags
-  #categories: /categories
   search: /search
-  about: https://0xff000000.com
-  rss: /atom.xml
 
 # Miscelaneous
 favicon: /logo.png
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content_limit: 140
+
+search:
+  path: search.xml
+  field: post
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -26,10 +34,10 @@ scripts:
 #- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
 #- /js/xoxo.js
 
+baidu_analytics: 7d0f5601cb689e2181a85adf3bc4ea23
+
 # switch
 show_excerpt: true
 show_date: true
 #footer
-index_page: https://blog.0xff000000.com
-main_site: https://0xff000000.com
-github: https://github.com/KevinOfNeu
+github: https://github.com/wansho
