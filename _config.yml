@@ -34,7 +34,7 @@ scripts:
 #- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
 #- /js/xoxo.js
 
-baidu_analytics: 7d0f5601cb689e2181a85adf3bc4ea23
+baidu_analytics: true
 
 # switch
 show_excerpt: true

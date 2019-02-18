@@ -1,5 +1,7 @@
 # hexo-theme-xoxo
 
+[TOC]
+
 Hexo theme inspired by [microb](https://github.com/microacup/hexo-theme-micorb) 
 
 [Demo](https://blog.0xff000000.com)
@@ -65,6 +67,34 @@ github: https://github.com/KevinOfNeu
 
 ```
 
-## TODO
-- [ ] 模板文件中的中文字符提取, 支持 i18n
-- [ ] 增加分享 widget
+### tags 和 search 功能配置
+
+由于时间有限，不能短时间内速成一个简约又不缺核心功能的主题，所以只能退而求其次，找一个自己满意的主题，然后修改。
+
+主题地址：[Github Hexo-Theme-xoxo](https://github.com/KevinOfNeu/hexo-theme-xoxo)
+
+主题Demo: https://blog.0xff000000.com/
+
+注意：要实现 tags 和 search 两个功能，需要进行如下配置：
+
+```
+step1:
+	hexo new page tags
+	
+step2:
+	编辑 /source/tags/index.md，增加 type
+	---
+    title: tags
+    date: 2016-06-08 16:19:38
+    type: "tags"
+    ---
+
+search 同理，只需要将 tags 改成 search
+	
+参考：https://github.com/iissnan/hexo-theme-next/issues/339
+```
+
+### 增加百度统计
+
+https://www.cnblogs.com/fazero/p/7976651.html
+
