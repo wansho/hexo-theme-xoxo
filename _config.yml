@@ -33,8 +33,11 @@ stylesheets:
 scripts:
 #- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
 #- /js/xoxo.js
+sitemap:
+    path: sitemap.xml
 
-baidu_analytics: true
+google_analytics: UA-86660611-1
+baidu_analytics: 7d0f5601cb689e2181a85adf3bc4ea23
 
 # switch
 show_excerpt: true
